@@ -5,13 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/popupPage.css">
-    <title>popupPage</title>
+    <title>강의실 예약</title>
 </head>
 <body>
     <form id="mainForm">
-        <select id="lectRoom"></select>
-        <select id="reservTime"></select>
-        <input id="manyStudent" required></input>
+        <div id="lectRoomdiv">
+            <p>강의실: </p>
+            <select id="lectRoom"></select>
+        </div>
+        <div id="reservTimediv">
+            <p>예약시간: </p>
+            <select id="reservTime"></select>
+        </div>
+        <div id="manyStudentdiv">
+            <p>학생수: </p>
+            <input id="manyStudent" autofocus></input>
+        </div>
+        <br />
         <button id="subBtn" type="submit"></button>
         <button id="canBtn"></button>
     </form>
@@ -19,6 +29,5 @@
     <script src="./js/mainForm.js"></script>
     <script src="./js/lectRoom.js"></script>
     <script src="./js/reservTime.js"></script>
-    <script src="./js/manyStudent.js"></script>
 </body>
 </html>

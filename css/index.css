@@ -1,0 +1,14 @@
+body {
+    background-color: rgba(21, 48, 82, 0.95);
+}
+#reservButton {
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(21, 48, 82, 0.95);
+    text-align: center;
+    box-sizing: border-box;
+    letter-spacing: -0.034em;
+    border: 1px solid white;
+}
